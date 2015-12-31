@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[testAdd for 2 + 3 = success]]>
+    </line>
+    <line>
+      <![CDATA[testAdd for 2 + 4 = success]]>
+    </line>
+  </reporter-output>
+  <suite name="Sample test Suite" duration-ms="15" started-at="2015-12-21T18:27:23Z" finished-at="2015-12-21T18:27:23Z">
+    <groups>
+      <group name="blabla">
+        <method signature="TestNGCalculator.testAdd(int, int, int)[pri:0, instance:com.ilad.calc.TestNGCalculator@2f6c8fd8]" name="testAdd" class="com.ilad.calc.TestNGCalculator"/>
+      </group> <!-- blabla -->
+    </groups>
+    <test name="TestNGCalculator" duration-ms="15" started-at="2015-12-21T18:27:23Z" finished-at="2015-12-21T18:27:23Z">
+      <class name="com.ilad.calc.TestNGCalculator">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ilad.calc.TestNGCalculator@2f6c8fd8]" name="setUp" is-config="true" duration-ms="4" started-at="2015-12-21T18:27:23Z" finished-at="2015-12-21T18:27:23Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAdd(int, int, int)[pri:0, instance:com.ilad.calc.TestNGCalculator@2f6c8fd8]" name="testAdd" duration-ms="2" started-at="2015-12-21T18:27:23Z" data-provider="test1" finished-at="2015-12-21T18:27:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- testAdd -->
+        <test-method status="PASS" signature="testAdd(int, int, int)[pri:0, instance:com.ilad.calc.TestNGCalculator@2f6c8fd8]" name="testAdd" duration-ms="1" started-at="2015-12-21T18:27:23Z" data-provider="test1" finished-at="2015-12-21T18:27:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- testAdd -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ilad.calc.TestNGCalculator@2f6c8fd8]" name="setUp" is-config="true" duration-ms="0" started-at="2015-12-21T18:27:23Z" finished-at="2015-12-21T18:27:23Z">
+        </test-method> <!-- setUp -->
+      </class> <!-- com.ilad.calc.TestNGCalculator -->
+    </test> <!-- TestNGCalculator -->
+  </suite> <!-- Sample test Suite -->
+</testng-results>

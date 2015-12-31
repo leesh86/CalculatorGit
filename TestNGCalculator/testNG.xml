@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Sample test Suite">
+	<test name="TestNGCalculator">
+		<classes>
+			<class name="com.ilad.calc.TestNGCalculator">
+				<groups>
+					<run>
+						<include name="blabla" />
+					</run>
+				</groups>
+				<methods>
+					<exclude name="testMult" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sample test Suite]">
+  <test name="TestNGCalculator(failed)" preserve-order="true">
+    <groups>
+      <run>
+        <include name="blabla"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.ilad.calc.TestNGCalculator">
+        <methods>
+          <include name="testAdd" invocation-numbers="1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.ilad.calc.TestNGCalculator -->
+    </classes>
+  </test> <!-- TestNGCalculator(failed) -->
+</suite> <!-- Failed suite [Sample test Suite] -->
